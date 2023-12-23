@@ -1,0 +1,35 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#user-info {
+  margin-top: 20px;
+}
+
+#user-picture {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+#buttons-container {
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  display: block;
+}
